@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather&family=Montserrat&family=Outfit&family=PT+Sans&family=Poppins&family=Sacramento&family=Ubuntu:wght@300&display=swap");
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+.cont {
+  height: 150px;
+}
+.buttons {
+  height: 100px;
+}
+.html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(243, 255, 250);
+  background-color: rgb(102, 103, 185);
+  border-color: rgb(102, 103, 185);
+  margin-left: 300px;
+
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+}
+.html:hover {
+  background-color: rgb(0, 0, 0);
+}
+.css:hover {
+  background-color: rgb(0, 0, 0);
+}
+.js:hover {
+  background-color: rgb(0, 0, 0);
+}
+.css {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(243, 255, 250);
+  background-color: rgb(102, 103, 185);
+  border-color: rgb(102, 103, 185);
+  position: relative;
+  margin-left: 120px;
+  margin-top: 20px;
+
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+}
+.js {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(243, 255, 250);
+  background-color: rgb(102, 103, 185);
+  border-color: rgb(102, 103, 185);
+
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 20px;
+
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.modalOne {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 350px;
+  border-radius: 10px;
+}
+.modalTwo {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 350px;
+  border-radius: 10px;
+}
+.modalThree {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 350px;
+  border-radius: 10px;
+}
+.modalthree {
+  background-color: whitesmoke;
+  margin-top: 60px;
+  width: 500px;
+  margin-left: 350px;
+  border-radius: 10px;
+}
+
+.img {
+  position: relative;
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.closeOne {
+  position: absolute;
+  border: none;
+  height: 20px;
+  width: 20px;
+  size: 15px;
+  background: none;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.closeTwo {
+  position: absolute;
+  border: none;
+  height: 20px;
+  width: 20px;
+  size: 15px;
+  background: none;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.closeThree {
+  position: absolute;
+  border: none;
+  height: 20px;
+  width: 20px;
+  size: 15px;
+  background: none;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.para-one {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
